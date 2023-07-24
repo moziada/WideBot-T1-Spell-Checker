@@ -41,4 +41,4 @@ class SpellChecker:
             word (str): The word to be inserted.
         """
         self.trie.insert(word)
-        print(f"The word {word} added to the dictionary")
+        print(f'The word "{word}" added to the dictionary')
